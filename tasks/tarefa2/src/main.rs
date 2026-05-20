@@ -1,13 +1,13 @@
-fn maior_numero(numero: &Vec<i32>) -> i32 {
+fn maior_numero(numero: &[i32]) -> i32 {
     let mut maior: i32 = numero[0];
 
-    for i in 0..numero.len() {
-        if numero[i] >= maior {
-            maior = numero[i];
+    for &i in numero {
+        if i >= maior {
+            maior = i;
         }
     }
 
-    return maior;
+    maior
 }
 
 fn main() {
