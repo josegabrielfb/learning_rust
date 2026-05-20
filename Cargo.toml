@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+
+# Glob patterns — qualquer pasta tasks/tarefaN/ com Cargo.toml é incluída automaticamente
+members = [
+    "tasks/tarefa*",
+]

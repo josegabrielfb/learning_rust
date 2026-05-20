@@ -1,0 +1,26 @@
+# Rust — artefatos de build
+target/
+
+# Rust — backups do rustfmt
+**/*.rs.bk
+
+# Editor — JetBrains
+.idea/
+
+# Editor — Vim/Neovim
+*.swp
+*.swo
+
+# Editor — VS Code (rastreia settings e extensions, ignora o resto)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# OS — macOS
+.DS_Store
+
+# OS — Windows
+Thumbs.db
+Desktop.ini

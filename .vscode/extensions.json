@@ -1,0 +1,15 @@
+{
+  // Extensões OBRIGATÓRIAS para este workspace funcionar corretamente.
+  // O VS Code pedirá automaticamente para instalar as extensões recomendadas ao abrir o workspace.
+  "recommendations": [
+    // Ícones e cores das pastas de tarefas (sistema de progresso visual)
+    "pkief.material-icon-theme",
+    // Suporte oficial à linguagem Rust
+    "rust-lang.rust-analyzer"
+  ],
+  // Extensões incompatíveis — removê-las se estiverem instaladas para evitar conflito de ícones
+  "unwantedRecommendations": [
+    "vscode-icons-team.vscode-icons",
+    "emmanuelbeziat.vscode-great-icons"
+  ]
+}

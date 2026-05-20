@@ -1,0 +1,33 @@
+{
+  // ─────────────────────────────────────────────────────────────
+  //  TEMA DE ÍCONES
+  //  Material Icon Theme é obrigatório neste workspace.
+  //  Ver .vscode/extensions.json para instalação automática.
+  // ─────────────────────────────────────────────────────────────
+  "workbench.iconTheme": "material-icon-theme",
+
+  // ─────────────────────────────────────────────────────────────
+  //  ASSOCIAÇÕES DE PASTAS
+  // ─────────────────────────────────────────────────────────────
+  "material-icon-theme.folders.associations": {
+    // ── Pasta de aprendizado ────────────────────────────────────
+    "Iniciante": "rust",
+    // ── tasks/ ──────────────────────────────────────────────────
+    "tarefa1":  "rust",
+    "tarefa2":  "rust",
+    "tarefa3":  "rust",
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  //  OUTRAS CONFIGURAÇÕES DO WORKSPACE
+  // ─────────────────────────────────────────────────────────────
+
+  // Desativa o autocompletar do Copilot neste workspace
+  "github.copilot.enable": {
+    "*": false
+  },
+
+  // Aprova automaticamente execuções de terminal pelo agente (somente neste workspace)
+  "chat.tools.autoApprove": true
+}
+
