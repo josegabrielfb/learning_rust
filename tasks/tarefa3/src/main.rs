@@ -26,7 +26,7 @@ fn eh_primo(numero: i32) -> bool {
 }
 
 fn main() {
-    let numero: i32 = 17;
+    let numero: i32 = 1001;
     let resultado: bool = eh_primo(numero);
     println!("{}", resultado);
 }
