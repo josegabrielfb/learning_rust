@@ -10,12 +10,12 @@ fn eh_primo(numero: i32) -> bool {
 
     // Requisito 3 e 4: Loop for de 2 até o limite (inclusive) para testar divisores
     for i in 2..=limite {
-        // Se o 'i' for igual ao próprio número (ex: no caso do 2 ou 3), 
+        // Se o 'i' for igual ao próprio número (ex: no caso do 2 ou 3),
         // não contamos como divisor de exclusão.
         if i == numero {
             continue;
         }
-        
+
         if numero % i == 0 {
             return false; // Encontrou um divisor exato, não é primo
         }
