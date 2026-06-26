@@ -6,11 +6,6 @@ fn eh_primo(numero: i32) -> bool {
     let limite = (numero as f64).sqrt().ceil() as i32;
 
     for i in 2..=limite {
-<<<<<<< HEAD
-=======
-        // Se o 'i' for igual ao próprio número (ex: no caso do 2 ou 3),
-        // não contamos como divisor de exclusão.
->>>>>>> d966046d497802c12c6fa1393894b612fb2d3691
         if i == numero {
             continue;
         }
